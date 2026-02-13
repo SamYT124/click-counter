@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Count your clicks</h1>
+        <button type="button" onclick="myFunction()">click counter</button>
+
+    <p id="demo">count your clicks</p>
+    <script>
+        let clicks = 0;
+
+        function myFunction() {
+            clicks ++
+            const demo = document.getElementById("demo");
+            demo.innerHTML = clicks
+        }
+    </script>
+    </body>
+</html>
